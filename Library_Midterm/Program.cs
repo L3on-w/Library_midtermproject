@@ -7,6 +7,7 @@ namespace Library_Midterm
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Midterm");
         }
     }
 }
