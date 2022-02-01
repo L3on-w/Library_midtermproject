@@ -8,6 +8,7 @@ namespace Library_Terminal
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Testing push/pull request");
+            Console.WriteLine("Rice");
         }
     }
 }
