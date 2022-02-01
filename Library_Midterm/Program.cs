@@ -8,6 +8,9 @@ namespace Library_Midterm
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Midterm");
+            // create a book class
+            // that includes title, author, status, and due date
+            // status == On Shelf or Checked Out
         }
     }
 }
