@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -59,7 +59,7 @@ var userInput = Console.ReadLine();
     List<BookList> Bookss = new List<BookList>();
     Bookss.Add(book1);
 
-//book list for the text file
+
     List<BookList> books = new List<BookList>();
 
     books.Add(new BookList("It", "Stephen King"));
@@ -76,7 +76,7 @@ var userInput = Console.ReadLine();
     books.Add(new Book("Wizard of Oz"));
 
     using FileStream filesStream = File.Create(filePath);
-// streamwriter to write and read from the text file
+
     using StreamWriter sw = new StreamWriter(filesStream);
 
     foreach (Book book in books)
@@ -109,5 +109,3 @@ var userInput = Console.ReadLine();
 
     }
 }
-
-
