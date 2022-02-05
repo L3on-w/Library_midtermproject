@@ -1,34 +1,90 @@
-﻿IT
-Under the Dome
-The Outsider
-American Gods
-Anansi Boys
-Sandman
-Locke and Key
-Y The Last Man
-Pride of Bagdhad
-Scary Stories To Tell In The Dark
-How To Teach Your Cat About Gun Safety: And Abstinence, Drugs, Satanism, And Other Dangers That Threaten Their Nine lives
-Elvis
-101 Fairy Tales: The Brothers Grimm
-Insomnia
-The Tower 
-To Kill A Mockingbird
-Little Women
-Persepolise
-The Color Purple
-Kite Runner
-Tuesdays with Morrie
-Hidden Figures
-The Shawshank Redemption
-Of Mice And Men
-Goodfellas
-Fight Club
-Room
-One Flew Over The Cuckoos Nest
-Psycho
-The Silence of the Lambs
-Trainspotting
-The Lord of the Rings: The Return of the King
-Life of Pi
-The Help
+﻿Book Title, Book Author 
+
+IT, Stephen King, 
+Under the Dome, Stephen King
+The Outsider, Stephen King
+Insomnia, Stephen King
+The Dark Tower , Stephen King
+The Shawshank Redemption, Stephen King
+
+American Gods, Neil Gaiman
+Anansi Boys, Neil Gaiman
+Sandman, Neil Gaiman
+The Graveyard Book, Neil Gaimn
+Neverwhere, Neil Gaiman
+Good Omens, Neil Gaiman
+
+Locke and Key, Joe Hill
+The Fireman, Joe Hill
+Heart-Shaped Box, Joe Hill
+20th Century Ghosts, Jow Hill
+NOS4A2, Joe Hill
+Strange Weather, Horns, Joe Hill
+
+Y The Last Man, Brian K. Vaughan
+Pride of Baghdad, Brian K. Vaughan
+The Runaways, Brian K. Vaughan
+Saga, Brian K. Vaughan
+Ultimate X-Men, Brian K. Vaughan
+Paper Girls, Brian K. Vaughan
+
+The Lord of the Rings: The Return of the King, J.R.R. Tolkien
+The Hobbit, J.R.R. Tolkien
+On Fairy-Stories, J.R.R. Tolkien
+Silmarillion, J.R.R. Tolkien
+
+The Kite Runner, Khaled Hosseini
+A Thousand Splendid Suns, Khaled Hosseini
+And The Mountains Echoed, Khaled Hosseini
+
+To Kill A Mockingbird, Harper Lee
+Go Set A Watchman, Harper Lee
+
+
+
+
+How To Teach Your Cat About Gun Safety: And Abstinence, Drugs, Satanism, And Other Dangers That Threaten Their Nine lives, Zachary Auburn
+
+Elvis, Le Henanff
+
+Scary Stories To Tell In The Dark, Alvin Schwartz
+
+101 Fairy Tales: The Brothers Grimm, Jacob Grimm
+
+
+
+
+
+Little Women, Louisa May Alcott
+
+Persepolise, Marjane Strapi
+
+The Color Purple, Alice Walker
+
+
+
+Tuesdays with Morrie, Mitch Albom
+
+Hidden Figures, Margot Lee Shetterly
+
+Of Mice And Men, John Steinbeck
+
+Wise Guy, Nicholas Pileggi
+
+Fight Club, Chuck Palahniuk
+
+
+Room, Emma Donoghue
+
+One Flew Over The Cuckoos Nest, Ken Kesey
+
+Psycho, Robert Block
+
+The Silence of the Lambs, Thomas Harris
+
+Trainspotting, Irvine Welsh
+
+
+Life of Pi, Yann Martel
+
+The Help, Kathryn Stockett
