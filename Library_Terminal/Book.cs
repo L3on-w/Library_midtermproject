@@ -168,7 +168,7 @@ var userInput = Console.ReadLine();
     }
     public abstract class Manuscript
     {
-        //int year;
+        //due date
         //string author;
         //bool checkedOut;
 
