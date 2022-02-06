@@ -1,8 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Class1
+namespace Library_Terminal
 {
-	public Class1()
-	{
-	}
+    public class Book
+    {
+        public string author = "";
+        public string title = "";
+        public bool checkedIn = false;
+        public DateTime.Now.ToString() = DueDate
+
+       
+    }
 }
