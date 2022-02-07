@@ -1,96 +1,96 @@
 ﻿Book Title, Book Author 
 
-IT, Stephen King, 
-Under the Dome, Stephen King
-The Outsider, Stephen King
-Insomnia, Stephen King
-The Dark Tower , Stephen King
-The Shawshank Redemption, Stephen King
+It|Stephen King 
+Under the Dome|Stephen King
+The Outsider|Stephen King
+Insomnia|Stephen King
+The Dark Tower|Stephen King
+The Shawshank Redemption|Stephen King
 
-American Gods, Neil Gaiman
-Anansi Boys, Neil Gaiman
-Sandman, Neil Gaiman
-The Graveyard Book, Neil Gaimn
-Neverwhere, Neil Gaiman
-Good Omens, Neil Gaiman
+American Gods|Neil Gaiman
+Anansi Boys|Neil Gaiman
+Sandman|Neil Gaiman
+The Graveyard Book|Neil Gaiman
+Neverwhere|Neil Gaiman
+Good Omens|Neil Gaiman
 
-Locke and Key, Joe Hill
-The Fireman, Joe Hill
-Heart-Shaped Box, Joe Hill
-20th Century Ghosts, Jow Hill
-NOS4A2, Joe Hill
-Strange Weather Horns, Joe Hill
+Locke and Key|Joe Hill
+The Fireman|Joe Hill
+Heart-Shaped Box|Joe Hill
+20th Century Ghosts|Jow Hill
+NOS4A2|Joe Hill
+Strange Weather, Horns|Joe Hill
 
-Y The Last Man, Brian K. Vaughan
-Pride of Baghdad, Brian K. Vaughan
-The Runaways, Brian K. Vaughan
-Saga, Brian K. Vaughan
-Ultimate X-Men, Brian K. Vaughan
-Paper Girls, Brian K. Vaughan
+Y The Last Man|Brian K. Vaughan
+Pride of Baghdad|Brian K. Vaughan
+The Runaways|Brian K. Vaughan
+Saga|Brian K. Vaughan
+Ultimate X-Men|Brian K. Vaughan
+Paper Girls|Brian K. Vaughan
 
-The Lord of the Rings: The Return of the King, J.R.R. Tolkien
-The Hobbit, J.R.R. Tolkien
-On Fairy-Stories, J.R.R. Tolkien
-Silmarillion, J.R.R. Tolkien
+The Lord of the Rings: The Return of the King|J.R.R. Tolkien
+The Hobbit|J.R.R. Tolkien
+On Fairy-Stories|J.R.R. Tolkien
+Silmarillion|J.R.R. Tolkien
 
-The Kite Runner, Khaled Hosseini
-A Thousand Splendid Suns, Khaled Hosseini
-And The Mountains Echoed, Khaled Hosseini
+The Kite Runner|Khaled Hosseini
+A Thousand Splendid Suns|Khaled Hosseini
+And The Mountains Echoed|Khaled Hosseini
 
-To Kill A Mockingbird, Harper Lee
-Go Set A Watchman, Harper Lee
+To Kill A Mockingbird|Harper Lee
+Go Set A Watchman|Harper Lee
 
-How To Teach Your Cat About Gun Safety: And Abstinence, Drugs, Satanism, And Other Dangers That Threaten Their Nine lives, Zachary Auburn
+How To Teach Your Cat About Gun Safety: And Abstinence, Drugs, Satanism, And Other Dangers That Threaten Their Nine lives|Zachary Auburn
 
-Elvis, Le Henanff
+Elvis|Le Henanff
 
-Scary Stories To Tell In The Dark, Alvin Schwartz
-Scary Stories To Tell In The Dark Treasury, Alvin Schwartz
-In A Dark Dark Room and Other Scary Stories, Alvin Schwartz
+Scary Stories To Tell In The Dark|Alvin Schwartz
+Scary Stories To Tell In The Dark Treasury|Alvin Schwartz
+In A Dark Dark Room and Other Scary Stories|Alvin Schwartz
 
-Little Women, Louisa May Alcott
-Little Men, Louisa May Alcott
-Rose In Bloom, Louisa May Alcott
+Little Women|Louisa May Alcott
+Little Men|Louisa May Alcott
+Rose In Bloom|Louisa May Alcott
 
 
-Persepolise, Marjane Strapi
+Persepolise|Marjane Strapi
 
-The Color Purple, Alice Walker
+The Color Purple|Alice Walker
 
-Tuesdays with Morrie, Mitch Albom
-The Five People You Meet In Heaven, Mitch Albom
-The Time Keeper, Mitch Albom
+Tuesdays with Morrie|Mitch Albom
+The Five People You Meet In Heaven|Mitch Albom
+The Time Keeper|Mitch Albom
 
-Hidden Figures, Margot Lee Shetterly
+Hidden Figures|Margot Lee Shetterly
 
-Of Mice And Men, John Steinbeck
-The Grapes of Wrath, John Steinbeck
-East of Eden, John Steinbeck
-Cannery Row, John Steinbeck
+Of Mice And Men|John Steinbeck
+The Grapes of Wrath|John Steinbeck
+East of Eden|John Steinbeck
+Cannery Row|John Steinbeck
 
-Wise Guy, Nicholas Pileggi
+Wise Guy|Nicholas Pileggi
 
-Fight Club, Chuck Palahniuk
+Fight Club|Chuck Palahniuk
 
-Room, Emma Donoghue
-The Pull of the Stars, Emma Donoghue
-Akin, Emma Donoghue
-The Sealed Letter, Emma Donoghue
-Hood, Emma Donoghue
-Touchy Subjects, Emma Donoghue
+Room|Emma Donoghue
+The Pull of the Stars|Emma Donoghue
+Akin|Emma Donoghue
+The Sealed Letter|Emma Donoghue
+Hood|Emma Donoghue
+Touchy Subjects|Emma Donoghue
 
-One Flew Over The Cuckoos Nest, Ken Kesey
+One Flew Over The Cuckoos Nest|Ken Kesey
 
-Psycho, Robert Bloch
-Lori, Robert Bloch
-Mysteries of the Worm, Robert Bloch
-The Opener of the Way, Robert Bloch
-Yours Truly Jack the Ripper, Robert Bloch
+Psycho|Robert Bloch
+Lori|Robert Bloch
+Mysteries of the Worm|Robert Bloch
+The Opener of the Way|Robert Bloch
+Yours Truly, Jack the Ripper|Robert Bloch
 
-The Silence of the Lambs, Thomas Harris
+The Silence of the Lambs|Thomas Harris
 
-Trainspotting, Irvine Welsh
+Trainspotting|Irvine Welsh
 
-Life of Pi, Yann Martel
+Life of Pi|Yann Martel
 
-The Help, Kathryn Stockett
+The Help|Kathryn Stockett

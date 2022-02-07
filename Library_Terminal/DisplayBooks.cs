@@ -1,13 +1,13 @@
-﻿using System;
+﻿//using System;
 
-public class DisplayBooks
-{
-	public DisplayBooks()
-	{
+//public class DisplayBooks
+//{
+//	public DisplayBooks()
+//	{
       
         
-        List<BookList> books = new List<BookList>();
-                books.Add(new BookList(BookNames.txt));
+//        List<BookList> books = new List<BookList>();
+//                books.Add(new BookList(BookNames.txt));
 
 
 
@@ -43,4 +43,4 @@ public class DisplayBooks
 //    }
 
 
-}
+//}
