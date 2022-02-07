@@ -10,7 +10,7 @@ namespace Library_Terminal
     {
         public string author = "";
         public string title = "";
-        public bool checkedIn = false;
+        public bool checkedIn = true;
         public DateTime.Now.ToString() = DueDate
 
        
