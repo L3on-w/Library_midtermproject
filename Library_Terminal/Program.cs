@@ -13,6 +13,18 @@ namespace Library_Terminal
             string[] PullFromTxt = File.ReadAllLines("../../../BookNames.txt");
 
 
+            var bookTxtClasses = new BookList<BookText>();
+            foreach (var book in PullFromTxt)
+
+
+
+
+
+
+
+
+
+
             //string FilePath = "C:\AHBC-nov2021-dotnet\Library Midterm Project\Library_midtermproject\Library_Terminal\BookNames.txt"
             //using(StreamWriter sw = new StreamWriter(FilePath))
             //{
