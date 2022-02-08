@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 namespace Library_Terminal
 {
-	public class BookList
+    public class BookClass : BookInfo
     {
-        private object BookTitle;
+        public BookClass(string name, string author)
+        {
+            this.name = name;
+            this.author = author;
+        }
+        public bool IsCheckedIn { get; set; } = true;
 
-        public object BookAuthor { get; }
-
-        public BookList(string BookTitle, string BookAuthor)
-            {
-                this.BookTitle = Title;
-                this.BookAuthor = Author;
-            }
+        public string DueDate { get; set; } = "";
     }
 }
 
