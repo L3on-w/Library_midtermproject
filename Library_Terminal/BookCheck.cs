@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library_Terminal
 {
-    public class BookInfo
+    internal class BookCheck
     {
-        public string name;
-        public string author;
-        public int year;
     }
 }
