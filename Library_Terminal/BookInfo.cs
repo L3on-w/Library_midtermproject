@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace Library_Terminal
 {
-    public class Book
+    public class BookInfo
     {
-        public string author = "";
-        public string title = "";
-        public bool checkedIn = true;
-        public DateTime.Now.ToString() = DueDate
-
-
+        public string name;
+        public string author;
+        public int year;
     }
 }
