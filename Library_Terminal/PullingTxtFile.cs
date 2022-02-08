@@ -6,6 +6,7 @@ using System.Linq;
 public class PullingFromtxt
 {
     private object bookInfo;
+    private string authorName;
 
     public PullingFromtxt()
 	{
@@ -13,6 +14,9 @@ public class PullingFromtxt
 
 		var bookTxtGrouping = PullFromTxt.GroupBy(b => b.Split('|')[1], b => b.Split('|')[0]);
 
+
+
+		// lists and splits book title from author
 		var bookTxtClasses = new List<BookTxtPull>();
 		foreach (var bookinfo in PullFromTxt)
         {
@@ -22,14 +26,35 @@ public class PullingFromtxt
 
         }
 
+
+		//searching by author
         Console.WriteLine("Enter an Author to search their literature.");
-		foreach(var authorBooks in bookTxtClasses.Where(x => x, Author == authorName).Select(bookTxtClasses => bookTxtClasses.Title))
+		var author = Console.ReadLine();
+		foreach (var authorBook in bookTxtClasses.Where(b => b.Equals(author == authorName)).Select(b => b.bookTitle))
+        {
+            Console.WriteLine(authorBook);
+        }
 
 
 
+		//dictionary route for key look up
+		//var bookTxtGroupingDictionary = PullFromTxt.GroupBy(b => b.Split('|')[1], b => b.Split('|')[0]);
+		//foreach (var book in bookTxtGroupingDictionary)
+  //          {
+		//		bookTxtClasses.Add(new PullingFromtxt
 
-	}
+		//		{
+		//			//Author = book.Key;
+		//			//Title = book.Select(b => b);
+
+		//		}
+
+  //          }
+
+    public string Author { get; }
+    public IEnumerable<string> Title { get; }
 }
+
 
 public class AuthorTxtPull
 {
@@ -37,13 +62,15 @@ public class AuthorTxtPull
 	{
 		Author = authorName;
 	}
-	public string Author { get; set; } = string.Empty;
+	public string Author { get; } = string.Empty;
 
 }
 
 public class BookTxtPull
 {
-	public BookTxtPull(string bookTitle)
+    internal object bookTitle;
+
+    public BookTxtPull(string bookTitle)
 	{
 		Title = bookTitle;
 	}

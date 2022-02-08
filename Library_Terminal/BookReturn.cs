@@ -2,15 +2,15 @@
 
 public class BookReturn
 {
-    public BookReturn(string userTurnIn)
+    public BookReturn(bool userTurnIn)
     {
-        if (userTurnIn = "yes")
+        if (userTurnIn == true)
         {
-            return "Thank you! Feel free to browse for your next read!"
+            Console.WriteLine("Thank you! Feel free to browse for your next read!");
         }
         else
         {
-            return "Dont miss your due date!"
+            Console.WriteLine("Dont miss your due date!");
 
         }
 
