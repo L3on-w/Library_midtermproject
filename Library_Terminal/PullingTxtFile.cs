@@ -9,17 +9,7 @@ public class PullingFromtxt
 
     public PullingFromtxt()
 	{
-		//using (StreamReader sr = new StreamReader("../../../BookNames.txt"))
-		//using FileStream filesStream = File.Create(filePath);
-		//// streamwriter to write and read from the text file
-		//using StreamWriter sw = new StreamWriter(filesStream);
-		//sw.WriteLine(BookNames.txt)
-		
-		//foreach (Book book in books)
-		//{
-		//	sw.WriteLine(book.Name);
-		//}
-        string[] PullFromTxt = File.ReadAllLines("../../../BookNames.txt");
+	    string[] PullFromTxt = File.ReadAllLines("../../../BookNames.txt");
 
 		var bookTxtGrouping = PullFromTxt.GroupBy(b => b.Split('|')[1], b => b.Split('|')[0]);
 
@@ -32,20 +22,33 @@ public class PullingFromtxt
 
         }
 
+        Console.WriteLine("Enter an Author to search their literature.");
+		foreach(var authorBooks in bookTxtClasses.Where(x => x, Author == authorName).Select(bookTxtClasses => bookTxtClasses.Title))
+
 
 
 
 	}
 }
 
-public class BookTxtPull
+public class AuthorTxtPull
 {
-	public BookTxtPull(string authorName)
-    {
-		Author = authorName; 
-    }
+	public AuthorTxtPull(string authorName)
+	{
+		Author = authorName;
+	}
 	public string Author { get; set; } = string.Empty;
 
-	public IEnumerable<string> BookTitles { get; set; } = new List<string>();
-
 }
+
+public class BookTxtPull
+{
+	public BookTxtPull(string bookTitle)
+	{
+		Title = bookTitle;
+	}
+	public string Title { get; set; } = string.Empty;
+
+	public IEnumerable<string> BookTitles { get; set; } = new List<string>();
+}
+
