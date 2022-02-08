@@ -44,7 +44,7 @@ static List<BookClass> ReadFromFile(string filePath)
     {
         count++;
         string stringToProperties = reader.ReadLine();
-        string[] properties = stringToProperties.Split(',');
+        string[] properties = stringToProperties.Split('|');
         if (properties.Length > 1)
         {
             Books.Add(new BookClass(properties[0], properties[1]));
