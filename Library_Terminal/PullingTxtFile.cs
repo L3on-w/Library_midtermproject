@@ -8,9 +8,9 @@ public class PullingFromtxt
     private object bookInfo;
     private string authorName;
 
-    public PullingFromtxt()
+	public PullingFromtxt()
 	{
-	    string[] PullFromTxt = File.ReadAllLines("../../../BookNames.txt");
+		string[] PullFromTxt = File.ReadAllLines("../../../BookNames.txt");
 
 		var bookTxtGrouping = PullFromTxt.GroupBy(b => b.Split('|')[1], b => b.Split('|')[0]);
 
@@ -19,22 +19,23 @@ public class PullingFromtxt
 		// lists and splits book title from author
 		var bookTxtClasses = new List<BookTxtPull>();
 		foreach (var bookinfo in PullFromTxt)
-        {
+		{
 			var splitBookInfo = bookinfo.Split('|');
 			var bookTitle = splitBookInfo[0];
 			var authorName = splitBookInfo[1];
 
-        }
+		}
 
 
 		//searching by author
-        Console.WriteLine("Enter an Author to search their literature.");
+		Console.WriteLine("Enter an Author to search their literature.");
 		var author = Console.ReadLine();
 		foreach (var authorBook in bookTxtClasses.Where(b => b.Equals(author == authorName)).Select(b => b.bookTitle))
-        {
-            Console.WriteLine(authorBook);
-        }
+		{
+			Console.WriteLine(authorBook);
+		}
 
+	}
 
 
 		//dictionary route for key look up
