@@ -1,5 +1,9 @@
-<<<<<<< HEAD
-﻿K
+//<<<<<<< HEAD
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using BiblioTecca;
 using System.IO;
 
@@ -45,11 +49,6 @@ namespace BiblioTecca
 
     }
 }
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BiblioTecca
 {
@@ -75,7 +74,7 @@ namespace BiblioTecca
     }
 }
 =======
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -162,9 +161,23 @@ var userInput = Console.ReadLine();
     }
 }
 
-    using (StreamReader sr = new StreamReader("../../../librarytext.txt"))
+   /* using (StreamReader sr = new StreamReader("../../../librarytext.txt"))
     {
         foreach ()
+    }*/
+
+    string filePath = "../../../biblio.txt";
+
+    //readFromFile(filePath);
+    public static void ReadFromFile(string filePath)
+    {
+        StreamReader reader = new StreamReader(filePath);
+
+        while (!reader.EndOfStream)
+        {
+            Console.WriteLine(reader.ReadLine());
+        }
+        reader.Close();
     }
     public abstract class Manuscript
     {
