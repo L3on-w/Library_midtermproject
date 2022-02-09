@@ -15,6 +15,20 @@ List<BookClass> books = ReadFromFile(filePath);
 
 foreach (BookClass book in books)
 {
+<<<<<<< HEAD
+    public class Book
+    {
+
+        public string author = "";
+        public string title = "";
+        public bool checkedIn = false;
+        public int year;
+
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello Friend!");
+=======
     Console.WriteLine(book.name);
 }
 
@@ -39,6 +53,7 @@ static List<BookClass> ReadFromFile(string filePath)
     List<BookClass> Books = new List<BookClass>();
     int count = 0;
     StreamReader reader = new StreamReader(filePath);
+>>>>>>> 328764ec035fbc5818ce29f5c4df27c6c1ced65d
 
     while (!reader.EndOfStream)
     {
