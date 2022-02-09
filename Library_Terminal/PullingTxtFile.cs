@@ -54,6 +54,7 @@ public class PullingFromtxt
 
     public string Author { get; }
     public IEnumerable<string> Title { get; }
+    public static object PullFromTxt { get; private set; }
 }
 
 
