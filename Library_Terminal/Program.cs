@@ -27,13 +27,17 @@ Console.WriteLine(books[1].IsCheckedIn);
 Console.WriteLine("Checking IT out");
 BookCheck.CheckOut(books[0]);
 Console.WriteLine(books[0].DueDate);
-Console.WriteLine("Checking IT again");
+//Console.WriteLine("Checking IT again");
 Console.WriteLine(books[0].IsCheckedIn);
-Console.WriteLine("Checking IT out again");
+//Console.WriteLine("Checking IT out again");
 BookCheck.CheckOut(books[0]);
+Console.WriteLine("Checking In");
+BookCheck.CheckIn(books[0]);
+Console.WriteLine(books[0].IsCheckedIn.ToString());
 Console.WriteLine("Please pick an author");
 Console.WriteLine(" ");
 string author = Console.ReadLine();
+Console.WriteLine(" ");
 foreach(BookClass book in books)
 {
     if (book.author == author)
