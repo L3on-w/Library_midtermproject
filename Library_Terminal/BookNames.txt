@@ -1,71 +1,71 @@
-﻿Book Title|Book Author 
+﻿Book Title | Book Author | On Shelf: 
 
-It|Stephen King 
-Under the Dome|Stephen King
-The Outsider|Stephen King
-Insomnia|Stephen King
-The Dark Tower|Stephen King
-The Shawshank Redemption|Stephen King
-American Gods|Neil Gaiman
-Anansi Boys|Neil Gaiman
-Sandman|Neil Gaiman
-The Graveyard Book|Neil Gaiman
-Neverwhere|Neil Gaiman
-Good Omens|Neil Gaiman
-Locke and Key|Joe Hill
-The Fireman|Joe Hill
-Heart-Shaped Box|Joe Hill
-20th Century Ghosts|Jow Hill
-NOS4A2|Joe Hill
-Strange Weather, Horns|Joe Hill
-Y The Last Man|Brian K. Vaughan
-Pride of Baghdad|Brian K. Vaughan
-The Runaways|Brian K. Vaughan
-Saga|Brian K. Vaughan
-Ultimate X-Men|Brian K. Vaughan
-Paper Girls|Brian K. Vaughan
-The Lord of the Rings: The Return of the King|J.R.R. Tolkien
-The Hobbit|J.R.R. Tolkien
-On Fairy-Stories|J.R.R. Tolkien
-Silmarillion|J.R.R. Tolkien
-The Kite Runner|Khaled Hosseini
-A Thousand Splendid Suns|Khaled Hosseini
-And The Mountains Echoed|Khaled Hosseini
-To Kill A Mockingbird|Harper Lee
-Go Set A Watchman|Harper Lee
-How To Teach Your Cat About Gun Safety: And Abstinence, Drugs, Satanism, And Other Dangers That Threaten Their Nine lives|Zachary Auburn
-Elvis|Le Henanff
-Scary Stories To Tell In The Dark|Alvin Schwartz
-Scary Stories To Tell In The Dark Treasury|Alvin Schwartz
-In A Dark Dark Room and Other Scary Stories|Alvin Schwartz
-Little Women|Louisa May Alcott
-Little Men|Louisa May Alcott
-Rose In Bloom|Louisa May Alcott
-Persepolise|Marjane Strapi
-The Color Purple|Alice Walker
-Tuesdays with Morrie|Mitch Albom
-The Five People You Meet In Heaven|Mitch Albom
-The Time Keeper|Mitch Albom
-Hidden Figures|Margot Lee Shetterly
-Of Mice And Men|John Steinbeck
-The Grapes of Wrath|John Steinbeck
-East of Eden|John Steinbeck
-Cannery Row|John Steinbeck
-Wise Guy|Nicholas Pileggi
-Fight Club|Chuck Palahniuk
-Room|Emma Donoghue
-The Pull of the Stars|Emma Donoghue
-Akin|Emma Donoghue
-The Sealed Letter|Emma Donoghue
-Hood|Emma Donoghue
-Touchy Subjects|Emma Donoghue
-One Flew Over The Cuckoos Nest|Ken Kesey
-Psycho|Robert Bloch
-Lori|Robert Bloch
-Mysteries of the Worm|Robert Bloch
-The Opener of the Way|Robert Bloch
-Yours Truly, Jack the Ripper|Robert Bloch
-The Silence of the Lambs|Thomas Harris
-Trainspotting|Irvine Welsh
-Life of Pi|Yann Martel
-The Help|Kathryn Stockett
+It|Stephen King|On Shelf:
+Under the Dome|Stephen King|On Shelf:
+The Outsider|Stephen King|On Shelf:
+Insomnia|Stephen King|On Shelf:
+The Dark Tower|Stephen King|On Shelf:
+The Shawshank Redemption|Stephen King|On Shelf:
+American Gods|Neil Gaiman|On Shelf:
+Anansi Boys|Neil Gaiman|On Shelf:
+Sandman|Neil Gaiman|On Shelf:
+The Graveyard Book|Neil Gaiman|On Shelf:
+Neverwhere|Neil Gaiman|On Shelf:
+Good Omens|Neil Gaiman|On Shelf:
+Locke and Key|Joe Hill|On Shelf:
+The Fireman|Joe Hill|On Shelf:
+Heart-Shaped Box|Joe Hill|On Shelf:
+20th Century Ghosts|Jow Hill|On Shelf:
+NOS4A2|Joe Hill|On Shelf:
+Strange Weather, Horns|Joe Hill|On Shelf:
+Y The Last Man|Brian K. Vaughan|On Shelf:
+Pride of Baghdad|Brian K. Vaughan|On Shelf:
+The Runaways|Brian K. Vaughan|On Shelf:
+Saga|Brian K. Vaughan|On Shelf:
+Ultimate X-Men|Brian K. Vaughan|On Shelf:
+Paper Girls|Brian K. Vaughan|On Shelf:
+The Lord of the Rings: The Return of the King|J.R.R. Tolkien|On Shelf:
+The Hobbit|J.R.R. Tolkien|On Shelf:
+On Fairy-Stories|J.R.R. Tolkien|On Shelf:
+Silmarillion|J.R.R. Tolkien|On Shelf:
+The Kite Runner|Khaled Hosseini|On Shelf:
+A Thousand Splendid Suns|Khaled Hosseini|On Shelf:
+And The Mountains Echoed|Khaled Hosseini|On Shelf:
+To Kill A Mockingbird|Harper Lee|On Shelf:
+Go Set A Watchman|Harper Lee|On Shelf:
+How To Teach Your Cat About Gun Safety: And Abstinence, Drugs, Satanism, And Other Dangers That Threaten Their Nine lives|Zachary Auburn|On Shelf:
+Elvis|Le Henanff|On Shelf:
+Scary Stories To Tell In The Dark|Alvin Schwartz|On Shelf:
+Scary Stories To Tell In The Dark Treasury|Alvin Schwartz|On Shelf:
+In A Dark Dark Room and Other Scary Stories|Alvin Schwartz|On Shelf:
+Little Women|Louisa May Alcott|On Shelf:
+Little Men|Louisa May Alcott|On Shelf:
+Rose In Bloom|Louisa May Alcott|On Shelf:
+Persepolise|Marjane Strapi|On Shelf:
+The Color Purple|Alice Walker|On Shelf:
+Tuesdays with Morrie|Mitch Albom|On Shelf:
+The Five People You Meet In Heaven|Mitch Albom|On Shelf:
+The Time Keeper|Mitch Albom|On Shelf:
+Hidden Figures|Margot Lee Shetterly|On Shelf:
+Of Mice And Men|John Steinbeck|On Shelf:
+The Grapes of Wrath|John Steinbeck|On Shelf:
+East of Eden|John Steinbeck|On Shelf:
+Cannery Row|John Steinbeck|On Shelf:
+Wise Guy|Nicholas Pileggi|On Shelf:
+Fight Club|Chuck Palahniuk|On Shelf:
+Room|Emma Donoghue|On Shelf:
+The Pull of the Stars|Emma Donoghue|On Shelf:
+Akin|Emma Donoghue|On Shelf:
+The Sealed Letter|Emma Donoghue|On Shelf:
+Hood|Emma Donoghue|On Shelf:
+Touchy Subjects|Emma Donoghue|On Shelf:
+One Flew Over The Cuckoos Nest|Ken Kesey|On Shelf:
+Psycho|Robert Bloch|On Shelf:
+Lori|Robert Bloch|On Shelf:
+Mysteries of the Worm|Robert Bloch|On Shelf:
+The Opener of the Way|Robert Bloch|On Shelf:
+Yours Truly, Jack the Ripper|Robert Bloch|On Shelf:
+The Silence of the Lambs|Thomas Harris|On Shelf:
+Trainspotting|Irvine Welsh|On Shelf:
+Life of Pi|Yann Martel|On Shelf:
+The Help|Kathryn Stockett|On Shelf:
