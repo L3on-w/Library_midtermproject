@@ -5,10 +5,10 @@ using System.Linq;
 
 public class PullingFromtxt
 {
-	private object bookInfo;
-	private string authorName;
-    private object searchBookNames;
-    private string bookTitle;
+	public object bookInfo;
+	public string authorName;
+    public string searchBookNames;
+    public string bookTitle;
 
     public PullingFromtxt()
 	{
@@ -31,10 +31,11 @@ public class PullingFromtxt
 		}
 
 		//dictionary to pull from key word?
-		Dictionary<string, string> book = new Dictionary<string, string>();
-		var bookInfoDictionary = BookTxtPull.GroupBy(b => b.Split('|')[1], b => b.Split("|")[0]);
+		Dictionary<string, string> bookInfo = new Dictionary<string, string>();
+		var bookInfoDictionary = BookTxtPull.GroupBy(b => b.Split('|')[1], b => b.Split('|')[0]);
 		//.ToDictionary(b => b.Key, b => b.Select(a => a));
-		var keyWordSearch = bookInfoDictionary.Where(i => i.Contains(searchBookNames)).ToList();
+		var allBookNames = bookInfoDictionary.SelectMany(i => i);
+		var keyWordSearch = allBookNames.Where(i => i.Contains(searchBookNames, StringComparison.OrdinalIgnoreCase)).ToList();
 
 
 		//searching by author

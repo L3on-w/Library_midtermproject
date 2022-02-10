@@ -2,13 +2,33 @@
 
 public class SearchBook
 {
+
+    public class Manuscript
+    {
+        //due date
+        //string author;
+        //bool checkedOut;
+
+        public Manuscript(string name)
+        {
+            this.Name = name;
+        }
+        public string Name { get; set; }
+
+        public virtual string checkedOut(string personName)
+        {
+
+            return "yes";
+        }
+
+    }
     public class Book : Manuscript
     {
         public Book(string name) : base(name)
         {
         }
 
-        public bool TryGetBooks(string userInput, out string isHere)
+        public Book TryGetBooks(string userInput, out string isHere)
         {
             switch (userInput.ToLower())
             {
@@ -28,24 +48,6 @@ public class SearchBook
                     }
             }
         }
-        public abstract class Manuscript
-        {
-            //due date
-            //string author;
-            //bool checkedOut;
 
-            public Manuscript(string name)
-            {
-                this.Name = name;
-            }
-            public string Name { get; set; }
-
-            public virtual string checkedOut(string personName)
-            {
-
-                return "yes";
-            }
-
-        }
     }
 }
