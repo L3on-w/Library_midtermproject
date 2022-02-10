@@ -7,7 +7,11 @@ public class PullingFromtxt
 {
 	public object bookInfo;
 	public string authorName;
+
     public string searchBookNames;
+
+    public object searchBookNames;
+
     public string bookTitle;
 
     public PullingFromtxt()
