@@ -2,7 +2,7 @@
 
 public class SearchBook
 {
-    public class Book : Manuscript
+    /*public class Book : BookList
     {
         public Book(string name) : base(name)
         {
@@ -25,9 +25,9 @@ public class SearchBook
                 default:
                     {
                         return "Sorry, this book does not exist at this library";
-                    }
+                    }*/
             }
-        }
+        //}
         public abstract class Manuscript
         {
             //due date
@@ -47,5 +47,5 @@ public class SearchBook
             }
 
         }
-    }
-}
+    //}
+//}

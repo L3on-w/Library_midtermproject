@@ -21,7 +21,8 @@ List<BookClass> ReadFromFile(string filePath)
 
 foreach (BookClass book in books)
 {
-//<<<<<<< HEAD
+
+
     public class Book
     {
     private static object reader;
@@ -35,8 +36,11 @@ foreach (BookClass book in books)
         {
             Console.WriteLine("Hello Friend!");
 
-=======
+
     Console.WriteLine(book.name);
+
+    Console.WriteLine(book.name + "\n");
+
 }
 
 Console.WriteLine(books[0].name);
@@ -48,10 +52,24 @@ Console.WriteLine(books[1].IsCheckedIn);
 Console.WriteLine("Checking IT out");
 BookCheck.CheckOut(books[0]);
 Console.WriteLine(books[0].DueDate);
-Console.WriteLine("Checking IT again");
+//Console.WriteLine("Checking IT again");
 Console.WriteLine(books[0].IsCheckedIn);
-Console.WriteLine("Checking IT out again");
+//Console.WriteLine("Checking IT out again");
 BookCheck.CheckOut(books[0]);
+Console.WriteLine("Checking In");
+BookCheck.CheckIn(books[0]);
+Console.WriteLine(books[0].IsCheckedIn.ToString());
+Console.WriteLine("Please pick an author");
+Console.WriteLine(" ");
+string author = Console.ReadLine();
+Console.WriteLine(" ");
+foreach(BookClass book in books)
+{
+    if (book.author == author)
+    {
+        Console.WriteLine(book.name +" "+ book.author + " "+ book.IsCheckedIn.ToString()+"\n");
+    }
+}
 
 
 
@@ -60,8 +78,13 @@ static List<BookClass> ReadFromFile(string filePath)
     List<BookClass> Books = new List<BookClass>();
     int count = 0;
     StreamReader reader = new StreamReader(filePath);
->>>>>>> 328764ec035fbc5818ce29f5c4df27c6c1ced65d
+
+
         while (!reader.EndOfStream)
+
+
+    while (!reader.EndOfStream)
+
     {
         count++;
         string stringToProperties = reader.ReadLine();

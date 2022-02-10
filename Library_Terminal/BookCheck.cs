@@ -22,15 +22,30 @@ namespace Library_Terminal
                     book.IsCheckedIn = false;
                     return duedate;
                 }
-                else if (!book.IsCheckedIn)
+                else
                 {
                     checkedOutMessage = $"This Book is checked out. It should be back {book.DueDate.ToString()}.";
                     return checkedOutMessage;
                 }
-                checkedOutMessage = "somethings wrong";
-                return checkedOutMessage;
+
             }
 
-        
+            public static string CheckIn(BookClass book)
+            {
+                string duedate = book.DueDate;
+                DateTime today = new DateTime();
+                if (book.IsCheckedIn)
+                {
+
+                    return "This book is already checked in.";
+                }
+                else if (!book.IsCheckedIn)
+                {
+
+                    book.IsCheckedIn = true;
+                }
+
+                return "Book Checked in.";
+            }
     }
 }
