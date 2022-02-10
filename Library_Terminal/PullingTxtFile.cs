@@ -5,10 +5,10 @@ using System.Linq;
 
 public class PullingFromtxt
 {
-	private object bookInfo;
-	private string authorName;
-    private object searchBookNames;
-    private string bookTitle;
+	public object bookInfo;
+	public string authorName;
+    public object searchBookNames;
+    public string bookTitle;
 
     public PullingFromtxt()
 	{
