@@ -19,11 +19,34 @@ List<BookClass> ReadFromFile(string filePath)
 
 //List<Book> Books = new List<Book>();
 
+<<<<<<< HEAD
+=======
+foreach (BookClass book in books)
+{
+
+
+    public class Book
+    {
+    private static object reader;
+    public string author = "";
+        public string title = "";
+        public bool checkedIn = false;
+        public int year;
+
+>>>>>>> baf7ec7b11e2b491d83210cb579a092d225062c1
 
         static void Main(string[] args)
 {
     Console.WriteLine("Hello Friend!");
 
+<<<<<<< HEAD
+=======
+
+    Console.WriteLine(book.name);
+
+    Console.WriteLine(book.name + "\n");
+
+>>>>>>> baf7ec7b11e2b491d83210cb579a092d225062c1
 }
 
          public class Book
@@ -90,6 +113,7 @@ List<BookClass> ReadFromFile(string filePath)
                 
            
 
+<<<<<<< HEAD
         //    Console.WriteLine(book.name);
         //}
 
@@ -109,4 +133,61 @@ List<BookClass> ReadFromFile(string filePath)
 
 
 
+=======
+Console.WriteLine(books[0].DueDate);
+Console.WriteLine("Checking IT");
+Console.WriteLine(books[1].IsCheckedIn);
+Console.WriteLine("Checking IT out");
+BookCheck.CheckOut(books[0]);
+Console.WriteLine(books[0].DueDate);
+//Console.WriteLine("Checking IT again");
+Console.WriteLine(books[0].IsCheckedIn);
+//Console.WriteLine("Checking IT out again");
+BookCheck.CheckOut(books[0]);
+Console.WriteLine("Checking In");
+BookCheck.CheckIn(books[0]);
+Console.WriteLine(books[0].IsCheckedIn.ToString());
+Console.WriteLine("Please pick an author");
+Console.WriteLine(" ");
+string author = Console.ReadLine();
+Console.WriteLine(" ");
+foreach(BookClass book in books)
+{
+    if (book.author == author)
+    {
+        Console.WriteLine(book.name +" "+ book.author + " "+ book.IsCheckedIn.ToString()+"\n");
+    }
+}
+
+
+
+static List<BookClass> ReadFromFile(string filePath)
+{
+    List<BookClass> Books = new List<BookClass>();
+    int count = 0;
+    StreamReader reader = new StreamReader(filePath);
+
+
+        while (!reader.EndOfStream)
+
+
+    while (!reader.EndOfStream)
+
+    {
+        count++;
+        string stringToProperties = reader.ReadLine();
+        string[] properties = stringToProperties.Split('|');
+        if (properties.Length > 1)
+        {
+            Books.Add(new BookClass(properties[0], properties[1]));
+        }
+        else
+        {
+            continue;
+        }
+    }
+    Console.WriteLine($"There are {count} books.");
+    reader.Close();
+    return Books;
+>>>>>>> baf7ec7b11e2b491d83210cb579a092d225062c1
 
