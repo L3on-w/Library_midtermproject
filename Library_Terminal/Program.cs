@@ -11,11 +11,36 @@ using Library_Terminal;
 string filePath = "../../../BookNames.txt";
 
 List<BookClass> books = ReadFromFile(filePath);
+
+List<BookClass> ReadFromFile(string filePath)
+{
+    throw new NotImplementedException();
+}
+
 //List<Book> Books = new List<Book>();
 
 foreach (BookClass book in books)
 {
+
+
+    public class Book
+    {
+    private static object reader;
+    public string author = "";
+        public string title = "";
+        public bool checkedIn = false;
+        public int year;
+
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello Friend!");
+
+
+    Console.WriteLine(book.name);
+
     Console.WriteLine(book.name + "\n");
+
 }
 
 Console.WriteLine(books[0].name);
@@ -54,7 +79,12 @@ static List<BookClass> ReadFromFile(string filePath)
     int count = 0;
     StreamReader reader = new StreamReader(filePath);
 
+
+        while (!reader.EndOfStream)
+
+
     while (!reader.EndOfStream)
+
     {
         count++;
         string stringToProperties = reader.ReadLine();
@@ -72,4 +102,5 @@ static List<BookClass> ReadFromFile(string filePath)
     reader.Close();
     return Books;
 
+}
 }

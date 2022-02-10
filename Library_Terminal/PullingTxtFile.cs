@@ -5,26 +5,36 @@ using System.Linq;
 
 public class PullingFromtxt
 {
-    private object bookInfo;
-    private string authorName;
+	private object bookInfo;
+	private string authorName;
+    private object searchBookNames;
+    private string bookTitle;
 
-	public PullingFromtxt()
+    public PullingFromtxt()
 	{
-		string[] PullFromTxt = File.ReadAllLines("../../../BookNames.txt");
+		string[] BookTxtPull = File.ReadAllLines("../../../BookNames.txt");
 
-		var bookTxtGrouping = PullFromTxt.GroupBy(b => b.Split('|')[1], b => b.Split('|')[0]);
+		var bookTxtGrouping = BookTxtPull.GroupBy(b => b.Split('|')[1], b => b.Split('|')[0]);
 
 
 
 		// lists and splits book title from author
 		var bookTxtClasses = new List<BookTxtPull>();
-		foreach (var bookinfo in PullFromTxt)
+		foreach (var bookinfo in BookTxtPull)
 		{
 			var splitBookInfo = bookinfo.Split('|');
-			var bookTitle = splitBookInfo[0];
+			var title = splitBookInfo[0];
 			var authorName = splitBookInfo[1];
+			DateTime checkOut = DateTime.Parse(splitBookInfo[2]);
+						
 
 		}
+
+		//dictionary to pull from key word?
+		Dictionary<string, string> book = new Dictionary<string, string>();
+		var bookInfoDictionary = BookTxtPull.GroupBy(b => b.Split('|')[1], b => b.Split("|")[0]);
+		//.ToDictionary(b => b.Key, b => b.Select(a => a));
+		var keyWordSearch = bookInfoDictionary.Where(i => i.Contains(searchBookNames)).ToList();
 
 
 		//searching by author
@@ -35,27 +45,26 @@ public class PullingFromtxt
 			Console.WriteLine(authorBook);
 		}
 
+
+		//searching title
+		Console.WriteLine("Enter a Book title To search options");
+		var bTitle = Console.ReadLine();
+		foreach (var titleBook in bookTxtClasses.Where(b => b.Equals(bTitle = bookTitle)).Select(b => b.bookTitle))
+        {
+            Console.WriteLine(titleBook);
+        } 
+		
 	}
-
-
-		//dictionary route for key look up
-		//var bookTxtGroupingDictionary = PullFromTxt.GroupBy(b => b.Split('|')[1], b => b.Split('|')[0]);
-		//foreach (var book in bookTxtGroupingDictionary)
-  //          {
-		//		bookTxtClasses.Add(new PullingFromtxt
-
-		//		{
-		//			//Author = book.Key;
-		//			//Title = book.Select(b => b);
-
-		//		}
-
-  //          }
-
-    public string Author { get; }
-    public IEnumerable<string> Title { get; }
-    public static object PullFromTxt { get; private set; }
 }
+
+
+
+	
+
+
+	
+
+
 
 
 public class AuthorTxtPull
@@ -71,6 +80,7 @@ public class AuthorTxtPull
 public class BookTxtPull
 {
     internal object bookTitle;
+    internal object authorName;
 
     public BookTxtPull(string bookTitle)
 	{
