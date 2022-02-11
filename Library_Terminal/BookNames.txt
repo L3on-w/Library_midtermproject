@@ -69,3 +69,31 @@ The Silence of the Lambs|Thomas Harris|On Shelf:
 Trainspotting|Irvine Welsh|On Shelf:
 Life of Pi|Yann Martel|On Shelf:
 The Help|Kathryn Stockett|On Shelf:
+American Gods Neil Gaiman True 
+
+Anansi Boys Neil Gaiman True 
+
+Sandman Neil Gaiman True 
+
+The Graveyard Book Neil Gaiman True 
+
+Neverwhere Neil Gaiman True 
+
+Good Omens Neil Gaiman True 
+
+It Stephen King True 
+
+Under the Dome Stephen King True 
+
+The Outsider Stephen King True 
+
+Insomnia Stephen King True 
+
+The Dark Tower Stephen King True 
+
+The Shawshank Redemption Stephen King True 
+
+It Stephen King True 
+
+The Sealed Letter Emma Donoghue False 
+

@@ -17,10 +17,18 @@ namespace Library_Terminal
                 if (book.IsCheckedIn)
                 {
                     DateTime.Now.ToString();
-                    book.DueDate = today.AddDays(7).ToString();
-                    duedate = book.DueDate.ToString();
+                    book.DueDate = today.AddDays(14).ToString();
+                using (StreamWriter sw = File.AppendText("../../../BookNames.txt"))
+                {
+                    sw.WriteLine(book.IsCheckedIn);
+                }
+                duedate = book.DueDate.ToString();
                     book.IsCheckedIn = false;
-                    return duedate;
+                using (StreamWriter sw = File.AppendText("../../../BookNames.txt"))
+                {
+                    sw.WriteLine(book.IsCheckedIn);
+                }
+                return duedate;
                 }
                 else
                 {
