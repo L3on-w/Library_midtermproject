@@ -18,16 +18,16 @@ namespace Library_Terminal
                 {
                     DateTime.Now.ToString();
                     book.DueDate = today.AddDays(14).ToString();
-                using (StreamWriter sw = File.AppendText("../../../BookNames.txt"))
+                /*using (StreamWriter sw = File.AppendText("../../../BookNames.txt"))
                 {
                     sw.WriteLine(book.IsCheckedIn);
-                }
+                }*/
                 duedate = book.DueDate.ToString();
                     book.IsCheckedIn = false;
-                using (StreamWriter sw = File.AppendText("../../../BookNames.txt"))
+                /*using (StreamWriter sw = File.AppendText("../../../BookNames.txt"))
                 {
                     sw.WriteLine(book.IsCheckedIn);
-                }
+                }*/
                 return duedate;
                 }
                 else

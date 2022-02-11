@@ -35,16 +35,16 @@ do
         if (book.author == authorInput || book.name == authorInput)
         {
             Console.WriteLine(book.name + " " + book.author + " " + book.IsCheckedIn.ToString() + "\n");
-            Console.WriteLine("Would you like to checkout? Y N");
+            /*Console.WriteLine("Would you like to checkout? Y N");
                 if (Console.ReadLine().ToLower() == "Y");
             {
                 Console.WriteLine(book.IsCheckedIn = false);
-                Console.WriteLine(book.DueDate);
+                Console.WriteLine(book.DueDate.ToString());
             }
             using (StreamWriter sw = File.AppendText(filePath))
             {
                 sw.WriteLine(book.name + " " + book.author + " " + book.IsCheckedIn.ToString() + " " + book.DueDate.ToString() + "\n");
-            }
+            }*/
         }
         else if (book.author != authorInput)
         {
@@ -54,6 +54,7 @@ do
                 sw.WriteLine(book.name + " " + book.author + " " + book.IsCheckedIn.ToString() + " " + book.DueDate.ToString() + "\n");
             }*/
         }
+        Console.WriteLine("Would you like to checkout? Y N");
     }
 }
 
