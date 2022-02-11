@@ -2,7 +2,6 @@
 
 public class SearchBook
 {
-<<<<<<< HEAD
 
     public class Manuscript
     {
@@ -23,10 +22,8 @@ public class SearchBook
         }
 
     }
-    public class Book : Manuscript
-=======
-    /*public class Book : BookList
->>>>>>> baf7ec7b11e2b491d83210cb579a092d225062c1
+}
+    /*public class Book : Manuscript
     {
         public Book(string name) : base(name)
         {
@@ -49,16 +46,12 @@ public class SearchBook
                 default:
                     {
                         return "Sorry, this book does not exist at this library";
-                    }*/
+                    }
             }
-<<<<<<< HEAD
-        }
+        }*/
 
-    }
-}
-=======
-        //}
-        public abstract class Manuscript
+
+        /*public abstract class Manuscript
         {
             //due date
             //string author;
@@ -76,7 +69,5 @@ public class SearchBook
                 return "yes";
             }
 
-        }
-    //}
-//}
->>>>>>> baf7ec7b11e2b491d83210cb579a092d225062c1
+ }     }*/
+    

@@ -10,8 +10,6 @@ public class PullingFromtxt
 
     public string searchBookNames;
 
-    public object searchBookNames;
-
     public string bookTitle;
 
     public PullingFromtxt()

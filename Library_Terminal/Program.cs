@@ -14,146 +14,14 @@ string filePath = "../../../BookNames.txt";
 List<BookClass> books = ReadFromFile(filePath);
 //List<Book> Books = new List<Book>();
 
-
-
 foreach (BookClass book in books)
 {
-
-
-
-    public class Book
-    {
-    private static object reader;
-    public string author = "";
-        public string title = "";
-        public bool checkedIn = false;
-        public int year;
-
-
-
-        static void Main(string[] args)
-{
-    Console.WriteLine("Hello Friend!");
-
-
-
-    Console.WriteLine(book.name);
-
     Console.WriteLine(book.name + "\n");
-
-
-
-    Console.WriteLine(book.name + "\n");
-
 }
 
-         public class Book
-         {
-            private static object reader;
-            public string author = "";
-            public string title = "";
-            public bool checkedIn = false;
-            public int year;
+Console.WriteLine(books[0].name);
+Console.WriteLine(books[0].author);
 
-            static List<BookClass> ReadFromFile(string filePath)
-            {
-                List<BookClass> Books = new List<BookClass>();
-                int count = 0;
-                StreamReader reader = new StreamReader(filePath);
-
-                while (!reader.EndOfStream)
-                {
-                    count++;
-                    string stringToProperties = reader.ReadLine();
-                    string[] properties = stringToProperties.Split('|');
-                    if (properties.Length > 1)
-                    {
-                        Books.Add(new BookClass(properties[0], properties[1]));
-                    }
-                    else
-                    {
-                        continue;
-                    }
-                }
-                Console.WriteLine($"There are {count} books.");
-                reader.Close();
-                return Books;
-         }
-
-         static List<BookClass> ReadFromFile(string filePath)
-            {
-                List<BookClass> Books = new List<BookClass>();
-                int count = 0;
-                StreamReader reader = new StreamReader(filePath);
-
-                while (!reader.EndOfStream)
-                {
-                    count++;
-                    string stringToProperties = reader.ReadLine();
-                    string[] properties = stringToProperties.Split('|');
-                    if (properties.Length > 1)
-                    {
-                        Books.Add(new BookClass(properties[0], properties[1]));
-                    }
-                    else
-                    {
-                        continue;
-                    }
-                }
-                Console.WriteLine($"There are {count} books.");
-                reader.Close();
-                return Books;
-
-            }
-        }
-        
-        
-                
-           
-
-
-        //    Console.WriteLine(book.name);
-        //}
-
-        //Console.WriteLine(books[0].name);
-        //Console.WriteLine(books[0].author);
-
-
-        //Console.WriteLine(books[0].DueDate);
-        //Console.WriteLine("Checking IT");
-        //Console.WriteLine(books[1].IsCheckedIn);
-        //Console.WriteLine("Checking IT out");
-        //BookCheck.CheckOut(books[0]);
-        //Console.WriteLine(books[0].DueDate);
-        //Console.WriteLine("Checking IT again");
-        //Console.WriteLine(books[0].IsCheckedIn);
-        //Console.WriteLine("Checking IT out again");
-        //BookCheck.CheckOut(books[0]);
-
-
-
-
-Console.WriteLine(books[0].DueDate);
-Console.WriteLine("Checking IT");
-Console.WriteLine(books[1].IsCheckedIn);
-Console.WriteLine("Checking IT out");
-BookCheck.CheckOut(books[0]);
-Console.WriteLine(books[0].DueDate);
-
-//Console.WriteLine(books[0].DueDate);
-//Console.WriteLine("Checking IT");
-//Console.WriteLine(books[1].IsCheckedIn);
-//Console.WriteLine("Checking IT out");
-//BookCheck.CheckOut(books[0]);
-//Console.WriteLine(books[0].DueDate);
-
-//Console.WriteLine("Checking IT again");
-//Console.WriteLine(books[0].IsCheckedIn);
-//Console.WriteLine("Checking IT out again");
-//BookCheck.CheckOut(books[0]);
-//Console.WriteLine("Checking In");
-//BookCheck.CheckIn(books[0]);
-//Console.WriteLine(books[0].IsCheckedIn.ToString());
 do
 {
 
@@ -167,16 +35,42 @@ do
         if (book.author == authorInput || book.name == authorInput)
         {
             Console.WriteLine(book.name + " " + book.author + " " + book.IsCheckedIn.ToString() + "\n");
+            Console.WriteLine("Would you like to checkout? Y N");
+                if (Console.ReadLine().ToLower() == "Y");
+            {
+                Console.WriteLine(book.IsCheckedIn = false);
+                Console.WriteLine(book.DueDate);
+            }
+            using (StreamWriter sw = File.AppendText(filePath))
+            {
+                sw.WriteLine(book.name + " " + book.author + " " + book.IsCheckedIn.ToString() + " " + book.DueDate.ToString() + "\n");
+            }
         }
         else if (book.author != authorInput)
         {
-            Console.WriteLine(book.name + " " + book.author + " " + book.IsCheckedIn.ToString() + "\n");
+            /*Console.WriteLine(book.name + " " + book.author + " " + book.IsCheckedIn.ToString() + "\n");
+            using (StreamWriter sw = File.AppendText(filePath))
+            {
+                sw.WriteLine(book.name + " " + book.author + " " + book.IsCheckedIn.ToString() + " " + book.DueDate.ToString() + "\n");
+            }*/
         }
     }
 }
 
 while (Console.ReadLine() != "quit");
 
+/*using (StreamWriter sw = File.AppendText(filePath))
+{
+    sw.WriteLine(" ");
+}*/
+/*using (StreamReader sr = File.OpenText(filePath))
+{
+    string s = " ";
+    //while ((s = sr.ReadLine()) != null)
+    //{
+    // Console.WriteLine(s);
+    //}
+}*/
 
 
 static List<BookClass> ReadFromFile(string filePath)
@@ -203,8 +97,4 @@ static List<BookClass> ReadFromFile(string filePath)
     reader.Close();
     return Books;
 
-
-
-
 }
-
